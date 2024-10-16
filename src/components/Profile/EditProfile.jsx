@@ -18,7 +18,7 @@ import {
 import { useRef, useState } from "react";
 import useAuthStore from "../../store/authStore";
 import usePreviewImg from "../../hooks/usePreviewImg";
-
+import useEditProfile from "../../hooks/useEditProfile";
 import useShowToast from "../../hooks/useShowToast";
 
 const EditProfile = ({ isOpen, onClose }) => {
